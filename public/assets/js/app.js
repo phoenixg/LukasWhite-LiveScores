@@ -1,6 +1,6 @@
 var games;
 
-var conn = new WebSocket('ws://localhost:8080');
+var conn = new WebSocket('ws://localhost:8088');
 conn.onopen = function(e) {
     
 };
