@@ -9,7 +9,7 @@ $server = IoServer::factory(
     new WsServer(
         new Scores()
     )
-    , 8088
+    , 8089
 );
 
 $server->run();
